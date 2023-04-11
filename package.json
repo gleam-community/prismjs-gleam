@@ -1,0 +1,20 @@
+{
+	"name": "prismjs-gleam",
+	"version": "1.0.0",
+	"author": "McKayla Washburn <mckayla@hey.com>",
+	"description": "Gleam syntax highlighting for PrismJS",
+	"keywords": [],
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/gleam-community/prismjs-gleam",
+	"repository": "https://github.com/gleam-community/prismjs-gleam",
+	"bugs": "https://github.com/gleam-community/prismjs-gleam/issues",
+	"main": "./gleam.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@mckayla/prettier": "^1.0.3",
+		"prettier": "~2.8.0",
+	},
+	"scripts": {
+		"fmt": "prettier --write ."
+	}
+}
