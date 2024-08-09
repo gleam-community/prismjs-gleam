@@ -32,6 +32,6 @@ Prism.languages.gleam = {
 	},
 	punctuation: /[.\\:,{}()]/,
 	number:
-		/\b(?:0[bB][01_]+|0[oO][0-7_]+|\d[\d_]*(\\.[\d_]*(e-?[\d_]+))?|0[xX][\da-fA-F_]+)\b/,
+		/\b(?:0[bB][01_]+|0[oO][0-7_]+|\d[\d_]*(\\.[\d_]*(e-?[\d_]+)?)?|0[xX][\da-fA-F_]+)\b/,
 	boolean: /\b(?:True|False|Ok|Error|Nil)\b/,
 };
