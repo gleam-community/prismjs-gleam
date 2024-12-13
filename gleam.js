@@ -24,7 +24,7 @@ Prism.languages.gleam = {
 		greedy: true,
 	},
 	module: {
-		pattern: /([a-z][a-z0-9_]*)\./,
+		pattern: /([a-z][a-z0-9_]*)\.(?!{)/,
 		inside: {
 			punctuation: /\./,
 		},
