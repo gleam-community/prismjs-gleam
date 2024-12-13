@@ -1,1 +1,7 @@
-"@mckayla/prettier"
+{
+	"proseWrap": "never",
+	"quoteProps": "consistent",
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"useTabs": true
+}

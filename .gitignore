@@ -4,7 +4,6 @@
 .nova/
 .vscode/
 build/
-coverage/
 dist/
 erl_crash.dump
 node_modules/

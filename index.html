@@ -1,0 +1,95 @@
+<pre><code class="language-gleam">import wibble/wobble
+import wibble/wobble.{bibble}
+import wibble/wobble.{type Bobble}
+
+/// Some wobbles that are wibbles
+const wibbles = [
+	"wobble",
+	"wobble",
+	"wobble",
+]
+
+const short_string = "\"banana pudding\n\""
+
+const long_string = "
+banana pudding banana pudding banana pudding banana pudding banana pudding
+banana pudding banana pudding banana pudding banana pudding banana pudding
+"
+
+type Noodle {
+	Noodle(bobble: Bobble)
+}
+
+fn doodle(noodle) {
+	use woodle &lt;- result.try(noodle)
+
+	// bibble bibble bibble bibble the noodle
+	noodle
+	|&gt; bibble
+	|&gt; bibble()
+	|&gt; wobble.bibble
+	|&gt; wobble.bibble()
+}
+
+@external(javascript, "./wibble.mjs", "wobble")
+fn wobble(wombo: Wombo) -&gt; Combo
+
+fn keywords() {
+	panic
+	panic as "the disco"
+	todo
+	todo as "the disco"
+}
+
+fn operators() {
+	1 + 2
+	1 - 2
+	1 * 2
+	1 / 2
+	1 &lt; 2
+	1 &gt; 2
+	1 &lt;= 2
+	1 &gt;= 2
+	1 % 2
+
+	1.0 +. 2.0
+	1.0 -. 2.0
+	1.0 *. 2.0
+	1.0 /. 2.0
+	1.0 &lt;. 2.0
+	1.0 &gt;. 2.0
+	1.0 &lt;=. 2.0
+	1.0 &gt;=. 2.0
+
+	a == b
+	a != b
+	a || b
+	a &amp;&amp; b
+	a &lt;&lt; b
+	a &gt;&gt; b
+	"a" <> "b"
+
+	use a &lt;- b()
+
+	case a.b {
+		a | b -&gt; Noodle(..a) |> b
+	}
+}
+
+@deprecated
+@internal
+fn builtins() {
+	Nil
+	False
+	True
+	Error
+	Ok
+}
+</code></pre>
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/prismjs@1.29/themes/prism.min.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="https://unpkg.com/prismjs@1.29/themes/prism-tomorrow.min.css" media="(prefers-color-scheme: dark)" />
+<script src="https://unpkg.com/prismjs@1.29/components/prism-core.min.js"></script>
+<script src="./gleam.js"></script>

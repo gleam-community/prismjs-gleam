@@ -9,10 +9,12 @@
 	"repository": "https://github.com/gleam-community/prismjs-gleam",
 	"bugs": "https://github.com/gleam-community/prismjs-gleam/issues",
 	"main": "./gleam.js",
+	"files": [
+		"**.js"
+	],
 	"dependencies": {},
 	"devDependencies": {
-		"@mckayla/prettier": "^1.0.3",
-		"prettier": "~2.8.0"
+		"prettier": "~3.4.2"
 	},
 	"scripts": {
 		"fmt": "prettier --write ."
