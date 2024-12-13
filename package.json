@@ -1,6 +1,6 @@
 {
 	"name": "prismjs-gleam",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "McKayla Washburn <mckayla@hey.com>",
 	"description": "Gleam syntax highlighting for PrismJS",
 	"keywords": [],
