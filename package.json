@@ -14,9 +14,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
+		"esbuild": "^0.24.0",
 		"prettier": "~3.4.2"
 	},
 	"scripts": {
-		"fmt": "prettier --write ."
+		"fmt": "prettier --write .",
+		"prepack": "esbuild --minify gleam.js --outfile=gleam.min.js"
 	}
 }

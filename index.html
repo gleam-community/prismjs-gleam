@@ -9,7 +9,7 @@ const wibbles = [
 	"wobble",
 ]
 
-const short_string = "\"banana pudding\n\""
+const short_string = "\"pub type fn\n\""
 
 const long_string = "
 banana pudding banana pudding banana pudding banana pudding banana pudding
@@ -85,11 +85,26 @@ fn builtins() {
 	Error
 	Ok
 }
+
+fn hi() {
+	0b0000_0000
+	0B0000_0000
+	0o0001_0755
+	0O0001_0755
+	0xabab_abab
+	0XABAB_ABAB
+}
 </code></pre>
 
-
-
-<link rel="stylesheet" href="https://unpkg.com/prismjs@1.29/themes/prism.min.css" media="(prefers-color-scheme: light)" />
-<link rel="stylesheet" href="https://unpkg.com/prismjs@1.29/themes/prism-tomorrow.min.css" media="(prefers-color-scheme: dark)" />
+<link
+	rel="stylesheet"
+	href="https://unpkg.com/prismjs@1.29/themes/prism.min.css"
+	media="(prefers-color-scheme: light)"
+/>
+<link
+	rel="stylesheet"
+	href="https://unpkg.com/prismjs@1.29/themes/prism-tomorrow.min.css"
+	media="(prefers-color-scheme: dark)"
+/>
 <script src="https://unpkg.com/prismjs@1.29/components/prism-core.min.js"></script>
 <script src="./gleam.js"></script>
